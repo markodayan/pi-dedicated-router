@@ -1,0 +1,13 @@
+watching /bluetooth directory for new files...
+Turning rnet on(10 sec wait)
+10 sec wait over
+pen_07_Nov_19_07.25.06.255.pgc
+Test Reponse to BjornUpload Was Successful
+Turning rnet off
+watching /bluetooth directory for new files...
+Turning rnet on(10 sec wait)
+10 sec wait over
+pen_07_Nov_19_07.27.57.399.pgc
+Test Reponse to BjornUpload Was Successful
+Turning rnet off
+watching /bluetooth directory for new files...
