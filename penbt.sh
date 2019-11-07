@@ -1,3 +1,41 @@
+get_time()
+{
+        timestamp=$(date '+[Date: %d/%m/%Y, Time: %H:%M:%S]: ')
+}
+
+post_file()
+{
+	FILENAME=$1
+	curl -v -X POST -F 'file=@/bluetooth/'$FILENAME https://pls.xcallibre.com/dwpls2/indata2.aspx 
+	if [ $? -eq 0 ]
+	then
+        	successful_upload $FILENAME
+	else
+       		failed_upload $FILENAME
+	fi
+}
+
+failed_upload()
+{
+	file=$1
+	get_time
+	echo $(ifconfig ppp0)
+	echo "$timestamp $file could not be uploaded"
+	#run python failure code
+}
+
+successful_upload()
+{
+	file=$1
+	get_time
+	echo $(ifconfig ppp0)
+	echo "$timestamp $file Uploaded Successfully"
+	python /home/pi/Desktop/scripts/python/post_success.py
+	
+}
+
+
+
 while :
 do
 
@@ -7,25 +45,21 @@ do
 # --format quote%fquote (needed!) - this specifies that output will be replaced
 #                         with the filename that triggered the event  
 
-echo "watching /bluetooth directory for new files..."
-FILENAME=$(sudo inotifywait -r -q --format '%f' -e create /bluetooth)
-echo "Turning rnet on(10 sec wait)"
+echo "\nwatching /bluetooth directory for new files..."
+pgc=$(sudo inotifywait -r -q --format '%f' -e create /bluetooth)
+
+get_time
+echo "$timestamp Turning rnet on(10 sec wait)"
 sudo pon rnet
 sleep 10
-echo "10 sec wait over" 
+get_time
+echo "$timestamp 10 sec wait over" 
 
-echo "$FILENAME"
-curl -v -X POST -F 'file=@/bluetooth/'$FILENAME https://pls.xcallibre.com/dwpls2/indata2.aspx 
+post_file $pgc
 
-if [ $? -eq 0 ]
-then
-	echo "Upload Was Successful"
-else
-	echo "curl failed"
-fi
-
+get_time
 ifconfig > /home/pi/Desktop/scripts/logs/config.txt
-echo "Turning rnet off"
+echo "$timestamp Turning rnet off"
 sudo poff rnet
-
+echo "---------------------------------------------"
 done

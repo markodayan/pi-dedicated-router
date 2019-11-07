@@ -1,13 +1,20 @@
+
 watching /bluetooth directory for new files...
-Turning rnet on(10 sec wait)
-10 sec wait over
-pen_07_Nov_19_07.25.06.255.pgc
-Test Reponse to BjornUpload Was Successful
-Turning rnet off
+[Date: 07/11/2019, Time: 12:14:43]:  Turning rnet on(10 sec wait)
+[Date: 07/11/2019, Time: 12:14:53]:  10 sec wait over
+Test Reponse to Bjornppp0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST> mtu 1500 inet 100.95.144.211 netmask 255.255.255.255 destination 192.200.1.21 ppp txqueuelen 3 (Point-to-Point Protocol) RX packets 23 bytes 6709 (6.5 KiB) RX errors 1 dropped 0 overruns 0 frame 0 TX packets 28 bytes 3316 (3.2 KiB) TX errors 0 dropped 0 overruns 0 carrier 0 collisions 0
+[Date: 07/11/2019, Time: 12:15:12]:  pen_07_Nov_19_10.15.07.225.pgc Uploaded Successfully
+Done
+[Date: 07/11/2019, Time: 12:15:34]:  Turning rnet off
+---------------------------------------------
+
 watching /bluetooth directory for new files...
-Turning rnet on(10 sec wait)
-10 sec wait over
-pen_07_Nov_19_07.27.57.399.pgc
-Test Reponse to BjornUpload Was Successful
-Turning rnet off
+[Date: 07/11/2019, Time: 12:18:06]:  Turning rnet on(10 sec wait)
+[Date: 07/11/2019, Time: 12:18:16]:  10 sec wait over
+Test Reponse to Bjornppp0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST> mtu 1500 inet 100.88.161.52 netmask 255.255.255.255 destination 192.200.1.21 ppp txqueuelen 3 (Point-to-Point Protocol) RX packets 22 bytes 6498 (6.3 KiB) RX errors 1 dropped 0 overruns 0 frame 0 TX packets 25 bytes 2593 (2.5 KiB) TX errors 0 dropped 0 overruns 0 carrier 0 collisions 0
+[Date: 07/11/2019, Time: 12:18:27]:  pen_07_Nov_19_10.18.10.084.pgc Uploaded Successfully
+Done
+[Date: 07/11/2019, Time: 12:18:28]:  Turning rnet off
+---------------------------------------------
+
 watching /bluetooth directory for new files...

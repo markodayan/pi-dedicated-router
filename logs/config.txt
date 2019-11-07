@@ -15,10 +15,10 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 ppp0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1500
-        inet 100.68.156.163  netmask 255.255.255.255  destination 192.200.1.21
+        inet 100.88.161.52  netmask 255.255.255.255  destination 192.200.1.21
         ppp  txqueuelen 3  (Point-to-Point Protocol)
-        RX packets 30  bytes 7030 (6.8 KiB)
+        RX packets 25  bytes 7984 (7.7 KiB)
         RX errors 1  dropped 0  overruns 0  frame 0
-        TX packets 34  bytes 3954 (3.8 KiB)
+        TX packets 28  bytes 2713 (2.6 KiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
