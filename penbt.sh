@@ -10,8 +10,10 @@ post_file()
 	if [ $? -eq 0 ]
 	then
         	successful_upload $FILENAME
+		sudo mv /bluetooth/$FILENAME /home/pi/Desktop/scripts/pen_files/sent
 	else
        		failed_upload $FILENAME
+		sudo mv /bluetooth/$FILENAME /home/pi/Desktop/scripts/pen_files/outbox
 	fi
 }
 
@@ -92,13 +94,14 @@ else
 	ifconfig > /home/pi/Desktop/scripts/logs/config.txt
 	get_time
 	echo "$timestamp FAILURE: No PPP Internet Connection"
+	sudo mv /bluetooth/$pgc /home/pi/Desktop/scripts/pen_files/outbox
 	# Will Add Some Logic Here (Maybe moving the file to an Outbox and Then trying to send in next attempt)
-	echo "$timestamp ACTION: Retry Connecting to GSM and Upload Attempt"
+	#echo "$timestamp ACTION: Retry Connecting to GSM and Upload Attempt"
 	python /home/pi/Desktop/scripts/python/post_fail.py
-	retry $pgc 
+	#retry $pgc 
 fi
 
-sleep 2
+sleep 1
 python /home/pi/Desktop/scripts/python/green24/green_off.py
 python /home/pi/Desktop/scripts/python/yellow23/yellow_off.py
 get_time
