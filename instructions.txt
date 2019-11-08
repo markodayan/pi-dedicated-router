@@ -1,0 +1,16 @@
+1. First do 'sudo raspi-config' and disable serial port on console login and enable hardware serial
+
+2. Clone the repository into Desktop so that it goes like 'Desktop/scripts' (rename the root directory to 'scripts' if it isnt named accordingly NB!)
+
+2. Run the script in the install directory, install_dependencies.sh
+
+3. Follow OBEX Guide: https://www.raspberrypi.org/forums/viewtopic.php?t=146328
+
+4. Pair to pen using bluetoothctl and pin:12345 and Maybe Test Some Scripts
+
+Remember
+
+LED(Green) - GPIO24
+LED(Yellow) - GPIO23
+Speaker - GPIO25
+THEN GSM Module ends on GPIO 15 and starts on 5V

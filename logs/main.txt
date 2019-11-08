@@ -12,3 +12,21 @@ Done
 ---------------------------------------------
 
 watching /bluetooth directory for new files...
+        inet 100.71.101.60  netmask 255.255.255.255  destination 192.200.1.21
+[Date: 08/11/2019, Time: 14:42:22]:  SUCCESS: Connected to ppp0 and ready for POST request
+Test Reponse to Bjorn
+[Date: 08/11/2019, Time: 14:42:24]:  SUCCESS: pen_08_Nov_19_12.42.14.367.pgc Uploaded Successfully
+Done
+[Date: 08/11/2019, Time: 14:42:27]:  Turning rnet off
+---------------------------------------------
+
+watching /bluetooth directory for new files...
+        inet 100.88.96.198  netmask 255.255.255.255  destination 192.200.1.21
+[Date: 08/11/2019, Time: 14:47:03]:  SUCCESS: Connected to ppp0 and ready for POST request
+Test Reponse to Bjorn
+[Date: 08/11/2019, Time: 14:47:12]:  SUCCESS: pen_08_Nov_19_12.46.56.225.pgc Uploaded Successfully
+Done
+[Date: 08/11/2019, Time: 14:47:15]:  Turning rnet off
+---------------------------------------------
+
+watching /bluetooth directory for new files...
