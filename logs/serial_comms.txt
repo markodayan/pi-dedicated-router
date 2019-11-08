@@ -1,0 +1,395 @@
+Nov  7 08:44:43 raspberrypi pppd[969]: pppd 2.4.7 started by root, uid 0
+Nov  7 08:44:39 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 08:46:17 raspberrypi pppd[854]: pppd 2.4.7 started by root, uid 0
+Nov  7 08:46:29 raspberrypi pppd[854]: Connect script failed
+Nov  7 08:47:11 raspberrypi pppd[854]: Connect script failed
+Nov  7 08:47:53 raspberrypi pppd[854]: Connect script failed
+Nov  7 08:48:35 raspberrypi pppd[854]: Connect script failed
+Nov  7 08:49:17 raspberrypi pppd[854]: Connect script failed
+Nov  7 08:49:59 raspberrypi pppd[854]: Connect script failed
+Nov  7 08:50:42 raspberrypi pppd[854]: Connect script failed
+Nov  7 08:51:24 raspberrypi pppd[854]: Connect script failed
+Nov  7 08:52:06 raspberrypi pppd[854]: Connect script failed
+Nov  7 08:52:48 raspberrypi pppd[854]: Connect script failed
+Nov  7 08:52:48 raspberrypi pppd[854]: Exit.
+Nov  7 08:55:09 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 09:03:28 raspberrypi pppd[888]: pppd 2.4.7 started by root, uid 0
+Nov  7 09:03:40 raspberrypi pppd[888]: Connect script failed
+Nov  7 09:03:45 raspberrypi pppd[888]: Terminating on signal 15
+Nov  7 09:03:45 raspberrypi pppd[888]: Exit.
+Nov  7 09:04:26 raspberrypi pppd[962]: pppd 2.4.7 started by root, uid 0
+Nov  7 09:04:38 raspberrypi pppd[962]: Connect script failed
+Nov  7 09:04:38 raspberrypi pppd[962]: Terminating on signal 15
+Nov  7 09:04:38 raspberrypi pppd[962]: Exit.
+Nov  7 09:07:31 raspberrypi pppd[1026]: pppd 2.4.7 started by root, uid 0
+Nov  7 09:07:32 raspberrypi pppd[1026]: Serial connection established.
+Nov  7 09:07:32 raspberrypi pppd[1026]: Using interface ppp0
+Nov  7 09:07:32 raspberrypi pppd[1026]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 09:07:42 raspberrypi pppd[1026]: not replacing default route to wlan0 [192.168.4.1]
+Nov  7 09:07:42 raspberrypi pppd[1026]: local  IP address 105.252.94.29
+Nov  7 09:07:42 raspberrypi pppd[1026]: remote IP address 192.200.1.21
+Nov  7 09:07:42 raspberrypi pppd[1026]: primary   DNS address 41.1.111.253
+Nov  7 09:07:48 raspberrypi pppd[1026]: Terminating on signal 15
+Nov  7 09:07:48 raspberrypi pppd[1026]: Connect time 0.1 minutes.
+Nov  7 09:07:48 raspberrypi pppd[1026]: Sent 0 bytes, received 0 bytes.
+Nov  7 09:07:48 raspberrypi pppd[1026]: Connection terminated.
+Nov  7 09:07:48 raspberrypi pppd[1026]: Exit.
+Nov  7 09:12:53 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 09:14:43 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 09:18:46 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 09:21:43 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 09:24:41 raspberrypi pppd[846]: pppd 2.4.7 started by root, uid 0
+Nov  7 09:24:42 raspberrypi pppd[846]: Serial connection established.
+Nov  7 09:24:42 raspberrypi pppd[846]: Using interface ppp0
+Nov  7 09:24:42 raspberrypi pppd[846]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 09:24:49 raspberrypi pppd[846]: local  IP address 100.66.85.87
+Nov  7 09:24:49 raspberrypi pppd[846]: remote IP address 192.200.1.21
+Nov  7 09:24:49 raspberrypi pppd[846]: primary   DNS address 41.1.111.253
+Nov  7 09:25:03 raspberrypi pppd[846]: Terminating on signal 15
+Nov  7 09:25:03 raspberrypi pppd[846]: Connect time 0.3 minutes.
+Nov  7 09:25:03 raspberrypi pppd[846]: Sent 3101 bytes, received 6521 bytes.
+Nov  7 09:25:03 raspberrypi pppd[846]: Connection terminated.
+Nov  7 09:25:03 raspberrypi pppd[846]: Exit.
+Nov  7 09:27:32 raspberrypi pppd[1067]: pppd 2.4.7 started by root, uid 0
+Nov  7 09:27:33 raspberrypi pppd[1067]: Serial connection established.
+Nov  7 09:27:33 raspberrypi pppd[1067]: Using interface ppp0
+Nov  7 09:27:33 raspberrypi pppd[1067]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 09:27:40 raspberrypi pppd[1067]: local  IP address 100.68.156.163
+Nov  7 09:27:40 raspberrypi pppd[1067]: remote IP address 192.200.1.21
+Nov  7 09:27:40 raspberrypi pppd[1067]: primary   DNS address 41.1.111.253
+Nov  7 09:28:19 raspberrypi pppd[1067]: Terminating on signal 15
+Nov  7 09:28:19 raspberrypi pppd[1067]: Connect time 0.7 minutes.
+Nov  7 09:28:19 raspberrypi pppd[1067]: Sent 3813 bytes, received 6972 bytes.
+Nov  7 09:28:19 raspberrypi pppd[1067]: Connection terminated.
+Nov  7 09:28:19 raspberrypi pppd[1067]: Exit.
+Nov  7 10:14:17 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 10:16:57 raspberrypi pppd[921]: pppd 2.4.7 started by root, uid 0
+Nov  7 10:16:57 raspberrypi pppd[921]: Serial connection established.
+Nov  7 10:16:58 raspberrypi pppd[921]: Using interface ppp0
+Nov  7 10:16:58 raspberrypi pppd[921]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 10:17:08 raspberrypi pppd[921]: not replacing default route to wlan0 [192.168.4.1]
+Nov  7 10:17:08 raspberrypi pppd[921]: local  IP address 100.95.7.194
+Nov  7 10:17:08 raspberrypi pppd[921]: remote IP address 192.200.1.21
+Nov  7 10:17:08 raspberrypi pppd[921]: primary   DNS address 41.1.111.253
+Nov  7 10:17:15 raspberrypi pppd[921]: Terminating on signal 15
+Nov  7 10:17:15 raspberrypi pppd[921]: Connect time 0.2 minutes.
+Nov  7 10:17:15 raspberrypi pppd[921]: Sent 0 bytes, received 0 bytes.
+Nov  7 10:17:16 raspberrypi pppd[921]: Connection terminated.
+Nov  7 10:17:16 raspberrypi pppd[921]: Exit.
+Nov  7 10:18:25 raspberrypi pppd[1108]: pppd 2.4.7 started by root, uid 0
+Nov  7 10:18:25 raspberrypi pppd[1108]: Serial connection established.
+Nov  7 10:18:25 raspberrypi pppd[1108]: Using interface ppp0
+Nov  7 10:18:25 raspberrypi pppd[1108]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 10:18:30 raspberrypi pppd[1108]: not replacing default route to wlan0 [192.168.4.1]
+Nov  7 10:18:30 raspberrypi pppd[1108]: local  IP address 100.76.251.202
+Nov  7 10:18:30 raspberrypi pppd[1108]: remote IP address 192.200.1.21
+Nov  7 10:18:30 raspberrypi pppd[1108]: primary   DNS address 41.1.111.253
+Nov  7 10:18:37 raspberrypi pppd[1108]: Terminating on signal 15
+Nov  7 10:18:37 raspberrypi pppd[1108]: Connect time 0.2 minutes.
+Nov  7 10:18:37 raspberrypi pppd[1108]: Sent 0 bytes, received 0 bytes.
+Nov  7 10:18:37 raspberrypi pppd[1108]: Connection terminated.
+Nov  7 10:18:37 raspberrypi pppd[1108]: Exit.
+Nov  7 10:19:07 raspberrypi pppd[1369]: pppd 2.4.7 started by root, uid 0
+Nov  7 10:19:08 raspberrypi pppd[1369]: Serial connection established.
+Nov  7 10:19:08 raspberrypi pppd[1369]: Using interface ppp0
+Nov  7 10:19:08 raspberrypi pppd[1369]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 10:19:12 raspberrypi pppd[1369]: local  IP address 100.91.142.85
+Nov  7 10:19:12 raspberrypi pppd[1369]: remote IP address 192.200.1.21
+Nov  7 10:19:12 raspberrypi pppd[1369]: primary   DNS address 41.1.111.253
+Nov  7 10:19:39 raspberrypi pppd[1369]: Terminating on signal 15
+Nov  7 10:19:39 raspberrypi pppd[1369]: Connect time 0.5 minutes.
+Nov  7 10:19:39 raspberrypi pppd[1369]: Sent 3709 bytes, received 6925 bytes.
+Nov  7 10:19:39 raspberrypi pppd[1369]: Connection terminated.
+Nov  7 10:19:39 raspberrypi pppd[1369]: Exit.
+Nov  7 10:24:03 raspberrypi pppd[1543]: pppd 2.4.7 started by root, uid 0
+Nov  7 10:24:03 raspberrypi pppd[1543]: Serial connection established.
+Nov  7 10:24:03 raspberrypi pppd[1543]: Using interface ppp0
+Nov  7 10:24:03 raspberrypi pppd[1543]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 10:24:13 raspberrypi pppd[1543]: Terminating on signal 15
+Nov  7 10:24:13 raspberrypi pppd[1543]: Connection terminated.
+Nov  7 10:24:13 raspberrypi pppd[1543]: Exit.
+Nov  7 10:25:19 raspberrypi pppd[1614]: pppd 2.4.7 started by root, uid 0
+Nov  7 10:25:19 raspberrypi pppd[1614]: Serial connection established.
+Nov  7 10:25:19 raspberrypi pppd[1614]: Using interface ppp0
+Nov  7 10:25:19 raspberrypi pppd[1614]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 10:25:24 raspberrypi pppd[1614]: local  IP address 100.68.70.201
+Nov  7 10:25:24 raspberrypi pppd[1614]: remote IP address 192.200.1.21
+Nov  7 10:25:24 raspberrypi pppd[1614]: primary   DNS address 41.1.111.253
+Nov  7 10:25:56 raspberrypi pppd[1614]: Terminating on signal 15
+Nov  7 10:25:56 raspberrypi pppd[1614]: Connect time 0.6 minutes.
+Nov  7 10:25:56 raspberrypi pppd[1614]: Sent 5114 bytes, received 6767 bytes.
+Nov  7 10:25:56 raspberrypi pppd[1614]: Connection terminated.
+Nov  7 10:25:56 raspberrypi pppd[1614]: Exit.
+Nov  7 11:31:40 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 11:34:12 raspberrypi pppd[910]: pppd 2.4.7 started by root, uid 0
+Nov  7 11:34:13 raspberrypi pppd[910]: Serial connection established.
+Nov  7 11:34:13 raspberrypi pppd[910]: Using interface ppp0
+Nov  7 11:34:13 raspberrypi pppd[910]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 11:34:20 raspberrypi pppd[910]: not replacing default route to wlan0 [192.168.4.1]
+Nov  7 11:34:20 raspberrypi pppd[910]: local  IP address 100.68.235.163
+Nov  7 11:34:20 raspberrypi pppd[910]: remote IP address 192.200.1.21
+Nov  7 11:34:20 raspberrypi pppd[910]: primary   DNS address 41.1.111.253
+Nov  7 11:34:25 raspberrypi pppd[910]: Terminating on signal 15
+Nov  7 11:34:25 raspberrypi pppd[910]: Connect time 0.1 minutes.
+Nov  7 11:34:25 raspberrypi pppd[910]: Sent 0 bytes, received 0 bytes.
+Nov  7 11:34:25 raspberrypi pppd[910]: Connection terminated.
+Nov  7 11:34:26 raspberrypi pppd[910]: Exit.
+Nov  7 11:35:24 raspberrypi pppd[1084]: pppd 2.4.7 started by root, uid 0
+Nov  7 11:35:36 raspberrypi pppd[1084]: Connect script failed
+Nov  7 11:35:41 raspberrypi pppd[1084]: Terminating on signal 15
+Nov  7 11:35:41 raspberrypi pppd[1084]: Exit.
+Nov  7 11:36:06 raspberrypi pppd[1235]: pppd 2.4.7 started by root, uid 0
+Nov  7 11:36:16 raspberrypi pppd[1235]: Child process /usr/sbin/chat -v -f /etc/chatscripts/gprs -T internet (pid 1236) terminated with signal 15
+Nov  7 11:36:16 raspberrypi pppd[1235]: Connect script failed
+Nov  7 11:36:16 raspberrypi pppd[1235]: Exit.
+Nov  7 11:38:00 raspberrypi pppd[1328]: pppd 2.4.7 started by root, uid 0
+Nov  7 11:38:01 raspberrypi pppd[1328]: Serial connection established.
+Nov  7 11:38:01 raspberrypi pppd[1328]: Using interface ppp0
+Nov  7 11:38:01 raspberrypi pppd[1328]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 11:38:08 raspberrypi pppd[1328]: local  IP address 100.123.22.174
+Nov  7 11:38:08 raspberrypi pppd[1328]: remote IP address 192.200.1.21
+Nov  7 11:38:08 raspberrypi pppd[1328]: primary   DNS address 41.1.111.253
+Nov  7 11:38:19 raspberrypi pppd[1328]: Terminating on signal 15
+Nov  7 11:38:19 raspberrypi pppd[1328]: Connect time 0.2 minutes.
+Nov  7 11:38:19 raspberrypi pppd[1328]: Sent 2690 bytes, received 6728 bytes.
+Nov  7 11:38:19 raspberrypi pppd[1328]: Connection terminated.
+Nov  7 11:38:20 raspberrypi pppd[1328]: Exit.
+Nov  7 11:41:18 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 11:49:48 raspberrypi pppd[1177]: pppd 2.4.7 started by root, uid 0
+Nov  7 11:49:49 raspberrypi pppd[1177]: Serial connection established.
+Nov  7 11:49:49 raspberrypi pppd[1177]: Using interface ppp0
+Nov  7 11:49:49 raspberrypi pppd[1177]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 11:49:59 raspberrypi pppd[1177]: Terminating on signal 15
+Nov  7 11:49:59 raspberrypi pppd[1177]: Connection terminated.
+Nov  7 11:49:59 raspberrypi pppd[1177]: Exit.
+Nov  7 11:51:55 raspberrypi pppd[1253]: pppd 2.4.7 started by root, uid 0
+Nov  7 11:51:55 raspberrypi pppd[1253]: Serial connection established.
+Nov  7 11:51:55 raspberrypi pppd[1253]: Using interface ppp0
+Nov  7 11:51:55 raspberrypi pppd[1253]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 11:52:00 raspberrypi pppd[1253]: local  IP address 100.125.150.79
+Nov  7 11:52:00 raspberrypi pppd[1253]: remote IP address 192.200.1.21
+Nov  7 11:52:00 raspberrypi pppd[1253]: primary   DNS address 41.1.111.253
+Nov  7 11:52:18 raspberrypi pppd[1253]: Terminating on signal 15
+Nov  7 11:52:18 raspberrypi pppd[1253]: Connect time 0.3 minutes.
+Nov  7 11:52:18 raspberrypi pppd[1253]: Sent 2993 bytes, received 6480 bytes.
+Nov  7 11:52:18 raspberrypi pppd[1253]: Connection terminated.
+Nov  7 11:52:18 raspberrypi pppd[1253]: Exit.
+Nov  7 12:11:08 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 12:14:43 raspberrypi pppd[860]: pppd 2.4.7 started by root, uid 0
+Nov  7 12:14:44 raspberrypi pppd[860]: Serial connection established.
+Nov  7 12:14:44 raspberrypi pppd[860]: Using interface ppp0
+Nov  7 12:14:44 raspberrypi pppd[860]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 12:14:51 raspberrypi pppd[860]: local  IP address 100.95.144.211
+Nov  7 12:14:51 raspberrypi pppd[860]: remote IP address 192.200.1.21
+Nov  7 12:14:51 raspberrypi pppd[860]: primary   DNS address 41.1.111.253
+Nov  7 12:15:34 raspberrypi pppd[860]: Terminating on signal 15
+Nov  7 12:15:34 raspberrypi pppd[860]: Connect time 0.8 minutes.
+Nov  7 12:15:34 raspberrypi pppd[860]: Sent 3375 bytes, received 8293 bytes.
+Nov  7 12:15:34 raspberrypi pppd[860]: Connection terminated.
+Nov  7 12:15:34 raspberrypi pppd[860]: Exit.
+Nov  7 12:18:06 raspberrypi pppd[1059]: pppd 2.4.7 started by root, uid 0
+Nov  7 12:18:07 raspberrypi pppd[1059]: Serial connection established.
+Nov  7 12:18:07 raspberrypi pppd[1059]: Using interface ppp0
+Nov  7 12:18:07 raspberrypi pppd[1059]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 12:18:14 raspberrypi pppd[1059]: local  IP address 100.88.161.52
+Nov  7 12:18:14 raspberrypi pppd[1059]: remote IP address 192.200.1.21
+Nov  7 12:18:14 raspberrypi pppd[1059]: primary   DNS address 41.1.111.253
+Nov  7 12:18:28 raspberrypi pppd[1059]: Terminating on signal 15
+Nov  7 12:18:28 raspberrypi pppd[1059]: Connect time 0.3 minutes.
+Nov  7 12:18:28 raspberrypi pppd[1059]: Sent 2692 bytes, received 8046 bytes.
+Nov  7 12:18:28 raspberrypi pppd[1059]: Connection terminated.
+Nov  7 12:18:28 raspberrypi pppd[1059]: Exit.
+Nov  7 13:18:12 raspberrypi pppd[1406]: pppd 2.4.7 started by root, uid 0
+Nov  7 13:18:13 raspberrypi pppd[1406]: Serial connection established.
+Nov  7 13:18:13 raspberrypi pppd[1406]: Using interface ppp0
+Nov  7 13:18:13 raspberrypi pppd[1406]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 13:18:20 raspberrypi pppd[1406]: not replacing default route to wlan0 [192.168.4.1]
+Nov  7 13:18:20 raspberrypi pppd[1406]: local  IP address 100.90.212.206
+Nov  7 13:18:20 raspberrypi pppd[1406]: remote IP address 192.200.1.21
+Nov  7 13:18:20 raspberrypi pppd[1406]: primary   DNS address 41.1.111.253
+Nov  7 13:18:27 raspberrypi pppd[1406]: Terminating on signal 15
+Nov  7 13:18:27 raspberrypi pppd[1406]: Connect time 0.2 minutes.
+Nov  7 13:18:27 raspberrypi pppd[1406]: Sent 0 bytes, received 0 bytes.
+Nov  7 13:18:27 raspberrypi pppd[1406]: Connection terminated.
+Nov  7 13:18:27 raspberrypi pppd[1406]: Exit.
+Nov  7 13:27:56 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 13:30:33 raspberrypi pppd[860]: pppd 2.4.7 started by root, uid 0
+Nov  7 13:30:33 raspberrypi pppd[860]: Serial connection established.
+Nov  7 13:30:33 raspberrypi pppd[860]: Using interface ppp0
+Nov  7 13:30:33 raspberrypi pppd[860]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 13:30:41 raspberrypi pppd[860]: local  IP address 100.95.92.249
+Nov  7 13:30:41 raspberrypi pppd[860]: remote IP address 192.200.1.21
+Nov  7 13:30:41 raspberrypi pppd[860]: primary   DNS address 41.1.111.253
+Nov  7 13:30:56 raspberrypi pppd[860]: Terminating on signal 15
+Nov  7 13:30:56 raspberrypi pppd[860]: Connect time 0.3 minutes.
+Nov  7 13:30:56 raspberrypi pppd[860]: Sent 2688 bytes, received 8006 bytes.
+Nov  7 13:30:56 raspberrypi pppd[860]: Connection terminated.
+Nov  7 13:30:56 raspberrypi pppd[860]: Exit.
+Nov  7 13:31:49 raspberrypi pppd[1036]: pppd 2.4.7 started by root, uid 0
+Nov  7 13:32:00 raspberrypi pppd[1036]: Child process /usr/sbin/chat -v -f /etc/chatscripts/gprs -T internet (pid 1037) terminated with signal 15
+Nov  7 13:32:00 raspberrypi pppd[1036]: Connect script failed
+Nov  7 13:32:00 raspberrypi pppd[1036]: Exit.
+Nov  7 13:34:25 raspberrypi pppd[1101]: pppd 2.4.7 started by root, uid 0
+Nov  7 13:34:26 raspberrypi pppd[1101]: Serial connection established.
+Nov  7 13:34:26 raspberrypi pppd[1101]: Using interface ppp0
+Nov  7 13:34:26 raspberrypi pppd[1101]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 13:34:36 raspberrypi pppd[1101]: local  IP address 100.123.123.171
+Nov  7 13:34:36 raspberrypi pppd[1101]: remote IP address 192.200.1.21
+Nov  7 13:34:36 raspberrypi pppd[1101]: primary   DNS address 41.1.111.253
+Nov  7 13:34:36 raspberrypi pppd[1101]: Terminating on signal 15
+Nov  7 13:34:36 raspberrypi pppd[1101]: Connect time 0.0 minutes.
+Nov  7 13:34:36 raspberrypi pppd[1101]: Sent 0 bytes, received 0 bytes.
+Nov  7 13:34:36 raspberrypi pppd[1101]: Connection terminated.
+Nov  7 13:34:36 raspberrypi pppd[1101]: Exit.
+Nov  7 13:35:17 raspberrypi pppd[1274]: pppd 2.4.7 started by root, uid 0
+Nov  7 13:35:18 raspberrypi pppd[1274]: Serial connection established.
+Nov  7 13:35:18 raspberrypi pppd[1274]: Using interface ppp0
+Nov  7 13:35:18 raspberrypi pppd[1274]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 13:35:22 raspberrypi pppd[1274]: local  IP address 100.83.92.88
+Nov  7 13:35:22 raspberrypi pppd[1274]: remote IP address 192.200.1.21
+Nov  7 13:35:22 raspberrypi pppd[1274]: primary   DNS address 41.1.111.253
+Nov  7 13:36:28 raspberrypi pppd[1274]: Terminating on signal 15
+Nov  7 13:36:28 raspberrypi pppd[1274]: Connect time 1.1 minutes.
+Nov  7 13:36:28 raspberrypi pppd[1274]: Sent 7544 bytes, received 7398 bytes.
+Nov  7 13:36:28 raspberrypi pppd[1274]: Connection terminated.
+Nov  7 13:36:28 raspberrypi pppd[1274]: Exit.
+Nov  7 13:59:18 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 14:02:40 raspberrypi pppd[865]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:02:40 raspberrypi pppd[865]: Serial connection established.
+Nov  7 14:02:40 raspberrypi pppd[865]: Using interface ppp0
+Nov  7 14:02:40 raspberrypi pppd[865]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 14:02:50 raspberrypi pppd[865]: Terminating on signal 15
+Nov  7 14:02:50 raspberrypi pppd[865]: Connection terminated.
+Nov  7 14:02:50 raspberrypi pppd[865]: Exit.
+Nov  7 14:06:05 raspberrypi pppd[980]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:06:06 raspberrypi pppd[980]: Serial connection established.
+Nov  7 14:06:06 raspberrypi pppd[980]: Using interface ppp0
+Nov  7 14:06:06 raspberrypi pppd[980]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 14:06:13 raspberrypi pppd[980]: local  IP address 100.95.206.123
+Nov  7 14:06:13 raspberrypi pppd[980]: remote IP address 192.200.1.21
+Nov  7 14:06:13 raspberrypi pppd[980]: primary   DNS address 41.1.111.253
+Nov  7 14:06:38 raspberrypi pppd[980]: Terminating on signal 15
+Nov  7 14:06:38 raspberrypi pppd[980]: Connect time 0.5 minutes.
+Nov  7 14:06:38 raspberrypi pppd[980]: Sent 2770 bytes, received 8253 bytes.
+Nov  7 14:06:38 raspberrypi pppd[980]: Connection terminated.
+Nov  7 14:06:38 raspberrypi pppd[980]: Exit.
+Nov  7 14:18:53 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 14:21:45 raspberrypi pppd[873]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:21:46 raspberrypi pppd[873]: Serial connection established.
+Nov  7 14:21:46 raspberrypi pppd[873]: Using interface ppp0
+Nov  7 14:21:46 raspberrypi pppd[873]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 14:21:53 raspberrypi pppd[873]: local  IP address 100.77.214.136
+Nov  7 14:21:53 raspberrypi pppd[873]: remote IP address 192.200.1.21
+Nov  7 14:21:53 raspberrypi pppd[873]: primary   DNS address 41.1.111.253
+Nov  7 14:22:06 raspberrypi pppd[873]: Terminating on signal 15
+Nov  7 14:22:06 raspberrypi pppd[873]: Connect time 0.3 minutes.
+Nov  7 14:22:06 raspberrypi pppd[873]: Sent 2600 bytes, received 7965 bytes.
+Nov  7 14:22:07 raspberrypi pppd[873]: Connection terminated.
+Nov  7 14:22:07 raspberrypi pppd[873]: Exit.
+Nov  7 14:30:33 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 14:32:02 raspberrypi pppd[877]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:32:03 raspberrypi pppd[877]: Serial connection established.
+Nov  7 14:32:03 raspberrypi pppd[877]: Using interface ppp0
+Nov  7 14:32:03 raspberrypi pppd[877]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 14:32:10 raspberrypi pppd[877]: local  IP address 105.253.57.214
+Nov  7 14:32:10 raspberrypi pppd[877]: remote IP address 192.200.1.21
+Nov  7 14:32:10 raspberrypi pppd[877]: primary   DNS address 41.1.111.253
+Nov  7 14:32:22 raspberrypi pppd[877]: Terminating on signal 15
+Nov  7 14:32:22 raspberrypi pppd[877]: Connect time 0.2 minutes.
+Nov  7 14:32:22 raspberrypi pppd[877]: Sent 2704 bytes, received 8006 bytes.
+Nov  7 14:32:22 raspberrypi pppd[877]: Connection terminated.
+Nov  7 14:32:22 raspberrypi pppd[877]: Exit.
+Nov  7 14:33:27 raspberrypi pppd[1058]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:33:27 raspberrypi pppd[1058]: Serial connection established.
+Nov  7 14:33:27 raspberrypi pppd[1058]: Using interface ppp0
+Nov  7 14:33:27 raspberrypi pppd[1058]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 14:33:32 raspberrypi pppd[1058]: local  IP address 100.87.158.82
+Nov  7 14:33:32 raspberrypi pppd[1058]: remote IP address 192.200.1.21
+Nov  7 14:33:32 raspberrypi pppd[1058]: primary   DNS address 41.1.111.253
+Nov  7 14:34:08 raspberrypi pppd[1058]: Terminating on signal 15
+Nov  7 14:34:08 raspberrypi pppd[1058]: Connect time 0.6 minutes.
+Nov  7 14:34:08 raspberrypi pppd[1058]: Sent 2862 bytes, received 8335 bytes.
+Nov  7 14:34:08 raspberrypi pppd[1058]: Connection terminated.
+Nov  7 14:34:08 raspberrypi pppd[1058]: Exit.
+Nov  7 14:34:30 raspberrypi pppd[1245]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:34:41 raspberrypi pppd[1245]: Child process /usr/sbin/chat -v -f /etc/chatscripts/gprs -T internet (pid 1247) terminated with signal 15
+Nov  7 14:34:41 raspberrypi pppd[1245]: Connect script failed
+Nov  7 14:34:41 raspberrypi pppd[1245]: Exit.
+Nov  7 14:36:02 raspberrypi pppd[1312]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:36:03 raspberrypi pppd[1312]: Serial connection established.
+Nov  7 14:36:03 raspberrypi pppd[1312]: Using interface ppp0
+Nov  7 14:36:03 raspberrypi pppd[1312]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 14:36:10 raspberrypi pppd[1312]: local  IP address 100.68.237.198
+Nov  7 14:36:10 raspberrypi pppd[1312]: remote IP address 192.200.1.21
+Nov  7 14:36:10 raspberrypi pppd[1312]: primary   DNS address 41.1.111.253
+Nov  7 14:36:23 raspberrypi pppd[1312]: Terminating on signal 15
+Nov  7 14:36:23 raspberrypi pppd[1312]: Connect time 0.3 minutes.
+Nov  7 14:36:23 raspberrypi pppd[1312]: Sent 2620 bytes, received 8006 bytes.
+Nov  7 14:36:23 raspberrypi pppd[1312]: Connection terminated.
+Nov  7 14:36:23 raspberrypi pppd[1312]: Exit.
+Nov  7 14:46:02 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 14:48:10 raspberrypi pppd[833]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:48:11 raspberrypi pppd[833]: Serial connection established.
+Nov  7 14:48:11 raspberrypi pppd[833]: Using interface ppp0
+Nov  7 14:48:11 raspberrypi pppd[833]: Connect: ppp0 <--> /dev/ttyS0
+Nov  7 14:48:18 raspberrypi pppd[833]: local  IP address 100.68.108.142
+Nov  7 14:48:18 raspberrypi pppd[833]: remote IP address 192.200.1.21
+Nov  7 14:48:18 raspberrypi pppd[833]: primary   DNS address 41.1.111.253
+Nov  7 14:48:30 raspberrypi pppd[833]: Terminating on signal 15
+Nov  7 14:48:30 raspberrypi pppd[833]: Connect time 0.2 minutes.
+Nov  7 14:48:30 raspberrypi pppd[833]: Sent 2560 bytes, received 7924 bytes.
+Nov  7 14:48:30 raspberrypi pppd[833]: Connection terminated.
+Nov  7 14:48:30 raspberrypi pppd[833]: Exit.
+Nov  7 14:46:02 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 14:47:27 raspberrypi pppd[836]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:47:38 raspberrypi pppd[836]: Child process /usr/sbin/chat -v -f /etc/chatscripts/gprs -T internet (pid 838) terminated with signal 15
+Nov  7 14:47:38 raspberrypi pppd[836]: Connect script failed
+Nov  7 14:47:38 raspberrypi pppd[836]: Exit.
+Nov  7 14:48:17 raspberrypi pppd[930]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:48:28 raspberrypi pppd[930]: Child process /usr/sbin/chat -v -f /etc/chatscripts/gprs -T internet (pid 932) terminated with signal 15
+Nov  7 14:48:28 raspberrypi pppd[930]: Connect script failed
+Nov  7 14:48:28 raspberrypi pppd[930]: Exit.
+Nov  7 14:48:52 raspberrypi pppd[996]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:49:03 raspberrypi pppd[996]: Child process /usr/sbin/chat -v -f /etc/chatscripts/gprs -T internet (pid 998) terminated with signal 15
+Nov  7 14:49:03 raspberrypi pppd[996]: Connect script failed
+Nov  7 14:49:03 raspberrypi pppd[996]: Exit.
+Nov  7 14:49:34 raspberrypi pppd[1071]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:49:45 raspberrypi pppd[1071]: Child process /usr/sbin/chat -v -f /etc/chatscripts/gprs -T internet (pid 1072) terminated with signal 15
+Nov  7 14:49:45 raspberrypi pppd[1071]: Connect script failed
+Nov  7 14:49:45 raspberrypi pppd[1071]: Exit.
+Nov  7 14:49:54 raspberrypi pppd[1139]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:50:06 raspberrypi pppd[1139]: Connect script failed
+Nov  7 14:50:35 raspberrypi pppd[1139]: Terminating on signal 15
+Nov  7 14:50:35 raspberrypi pppd[1139]: Exit.
+Nov  7 14:46:02 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 14:47:37 raspberrypi pppd[832]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:47:48 raspberrypi pppd[832]: Child process /usr/sbin/chat -v -f /etc/chatscripts/gprs -T internet (pid 834) terminated with signal 15
+Nov  7 14:47:48 raspberrypi pppd[832]: Connect script failed
+Nov  7 14:47:48 raspberrypi pppd[832]: Exit.
+Nov  7 14:49:05 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 14:50:27 raspberrypi pppd[833]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:50:39 raspberrypi pppd[833]: Child process /usr/sbin/chat -v -f /etc/chatscripts/gprs -T internet (pid 834) terminated with signal 15
+Nov  7 14:50:39 raspberrypi pppd[833]: Connect script failed
+Nov  7 14:50:39 raspberrypi pppd[833]: Exit.
+Nov  7 14:51:27 raspberrypi pppd[926]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:51:39 raspberrypi pppd[926]: Connect script failed
+Nov  7 14:52:21 raspberrypi pppd[926]: Connect script failed
+Nov  7 14:52:37 raspberrypi pppd[973]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:52:43 raspberrypi pppd[926]: Terminating on signal 15
+Nov  7 14:52:43 raspberrypi pppd[926]: Exit.
+Nov  7 14:52:43 raspberrypi pppd[973]: Child process /usr/sbin/chat -v -f /etc/chatscripts/gprs -T internet (pid 974) terminated with signal 15
+Nov  7 14:52:43 raspberrypi pppd[973]: Connect script failed
+Nov  7 14:52:43 raspberrypi pppd[973]: Exit.
+Nov  7 14:52:45 raspberrypi pppd[1009]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:52:57 raspberrypi pppd[1009]: Connect script failed
+Nov  7 14:53:01 raspberrypi pppd[1009]: Terminating on signal 15
+Nov  7 14:53:01 raspberrypi pppd[1009]: Exit.
+Nov  7 14:53:16 raspberrypi systemd[1]: pppd-dns.service: Succeeded.
+Nov  7 14:54:37 raspberrypi pppd[835]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:54:49 raspberrypi pppd[835]: Child process /usr/sbin/chat -v -f /etc/chatscripts/gprs -T internet (pid 837) terminated with signal 15
+Nov  7 14:54:49 raspberrypi pppd[835]: Connect script failed
+Nov  7 14:54:49 raspberrypi pppd[835]: Exit.
+Nov  7 14:55:56 raspberrypi pppd[922]: pppd 2.4.7 started by root, uid 0
+Nov  7 14:55:57 raspberrypi pppd[922]: Serial connection established.
+Nov  7 14:55:57 raspberrypi pppd[922]: Using interface ppp0
+Nov  7 14:55:57 raspberrypi pppd[922]: Connect: ppp0 <--> /dev/ttyS0

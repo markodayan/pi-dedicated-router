@@ -19,23 +19,50 @@ failed_upload()
 {
 	file=$1
 	get_time
-	echo $(ifconfig ppp0)
-	echo "$timestamp $file could not be uploaded"
-	#run python failure code
+	echo "\n$timestamp FAILED:  $file could not be uploaded"
+	python /home/pi/Desktop/scripts/python/post_fail.py
 }
 
 successful_upload()
 {
 	file=$1
 	get_time
-	echo $(ifconfig ppp0)
-	echo "$timestamp $file Uploaded Successfully"
+	echo "\n$timestamp SUCCESS: $file Uploaded Successfully"
 	python /home/pi/Desktop/scripts/python/post_success.py
-	
+
 }
 
+retry()
+{
+	retry_file=$1
+	sudo poff rnet
+	sleep 2
+	get_time
+	echo "\n$timestamp Retrying Connection to GSM Module (Once)"
+	sudo pon rnet
+	sleep 10
+	ifconfig ppp0 | grep inet
+	if [ $? -eq 0 ]
+	then
+		ifconfig > /home/pi/Desktop/scripts/logs/config.txt
+		get_time
+		echo "$timestamp RETRY_SUCCESS: Connected to ppp0 and ready for POST request"
+		post_file $retry_file
+	else
+		ifconfig > /home/pi/Desktop/scripts/logs/config.txt
+		get_time
+		echo "$timestamp RETRY_FAILURE: No PPP"
+        	# Will Add Some Logic Here (Maybe moving the file to an Outbox and Then trying to send in next attempt)
+        	echo "$timestamp ACTION: Need to Move Pen File to Outbox"
+        	python /home/pi/Desktop/scripts/python/post_fail.py
+	fi
+}
 
-
+# ------------------ Set Up ----------------------------------------
+echo "---------------------------------------------"
+echo "Booted Up"  
+echo "---------------------------------------------"
+# ------------------------------------------------------------------
 while :
 do
 
@@ -48,18 +75,35 @@ do
 echo "\nwatching /bluetooth directory for new files..."
 pgc=$(sudo inotifywait -r -q --format '%f' -e create /bluetooth)
 
-get_time
-echo "$timestamp Turning rnet on(10 sec wait)"
 sudo pon rnet
-sleep 10
-get_time
-echo "$timestamp 10 sec wait over" 
+sleep 15
 
-post_file $pgc
+# Testing ppp0 Internet Capabilities
+ifconfig ppp0 | grep inet 
+if  [ $? -eq 0 ]
+then
+	python /home/pi/Desktop/scripts/python/green24/green_on.py
+	ifconfig > /home/pi/Desktop/scripts/logs/config.txt 
+	get_time
+	echo "$timestamp SUCCESS: Connected to ppp0 and ready for POST request"
+	post_file $pgc
+else
+	python /home/pi/Desktop/scripts/python/yellow23/yellow_on.py
+	ifconfig > /home/pi/Desktop/scripts/logs/config.txt
+	get_time
+	echo "$timestamp FAILURE: No PPP Internet Connection"
+	# Will Add Some Logic Here (Maybe moving the file to an Outbox and Then trying to send in next attempt)
+	echo "$timestamp ACTION: Retry Connecting to GSM and Upload Attempt"
+	python /home/pi/Desktop/scripts/python/post_fail.py
+	retry $pgc 
+fi
 
+sleep 2
+python /home/pi/Desktop/scripts/python/green24/green_off.py
+python /home/pi/Desktop/scripts/python/yellow23/yellow_off.py
 get_time
-ifconfig > /home/pi/Desktop/scripts/logs/config.txt
 echo "$timestamp Turning rnet off"
 sudo poff rnet
 echo "---------------------------------------------"
 done
+

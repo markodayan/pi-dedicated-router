@@ -5,7 +5,7 @@ sleep 20
 echo "execute rnet script"
 sudo pon rnet
 echo "turning ppp on..."
-sleep 15
+sleep 20
 ifconfig
 echo "there should be ppp,thereafter upload the file to server"
 
