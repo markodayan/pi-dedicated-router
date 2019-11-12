@@ -35,7 +35,3 @@ OK              AT+CGDCONT=1,"IP","internet"
 OK              ATD*99#
 TIMEOUT         22
 CONNECT         ""
-
-
-
-

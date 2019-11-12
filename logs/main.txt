@@ -3,30 +3,36 @@ Booted Up
 ---------------------------------------------
 
 watching /bluetooth directory for new files...
-        inet 100.67.134.62  netmask 255.255.255.255  destination 192.200.1.21
-[Date: 08/11/2019, Time: 14:29:22]:  SUCCESS: Connected to ppp0 and ready for POST request
+        inet 100.111.43.91  netmask 255.255.255.255  destination 192.200.1.21
+        inet 100.111.43.91  netmask 255.255.255.255  destination 192.200.1.21
+[Date: 12/11/2019, Time: 14:46:49]:  SUCCESS: Connected to ppp0 and ready for POST request
 Test Reponse to Bjorn
-[Date: 08/11/2019, Time: 14:29:24]:  SUCCESS: pen_08_Nov_19_12.29.14.401.pgc Uploaded Successfully
+[Date: 12/11/2019, Time: 14:46:51]:  SUCCESS: pen_12_Nov_19_12.46.56.322.pgc Uploaded Successfully
 Done
-[Date: 08/11/2019, Time: 14:29:27]:  Turning rnet off
+Size of File Uploaded: 4.0K	
+[Date: 12/11/2019, Time: 14:46:54]:  Turning rnet off
 ---------------------------------------------
 
 watching /bluetooth directory for new files...
-        inet 100.71.101.60  netmask 255.255.255.255  destination 192.200.1.21
-[Date: 08/11/2019, Time: 14:42:22]:  SUCCESS: Connected to ppp0 and ready for POST request
+        inet 100.65.130.32  netmask 255.255.255.255  destination 192.200.1.21
+        inet 100.65.130.32  netmask 255.255.255.255  destination 192.200.1.21
+[Date: 12/11/2019, Time: 15:05:42]:  SUCCESS: Connected to ppp0 and ready for POST request
 Test Reponse to Bjorn
-[Date: 08/11/2019, Time: 14:42:24]:  SUCCESS: pen_08_Nov_19_12.42.14.367.pgc Uploaded Successfully
+[Date: 12/11/2019, Time: 15:05:53]:  SUCCESS: pen_12_Nov_19_13.05.50.170.pgc Uploaded Successfully
 Done
-[Date: 08/11/2019, Time: 14:42:27]:  Turning rnet off
+Size of File Uploaded: 8.0K	
+[Date: 12/11/2019, Time: 15:05:56]:  Turning rnet off
 ---------------------------------------------
 
 watching /bluetooth directory for new files...
-        inet 100.88.96.198  netmask 255.255.255.255  destination 192.200.1.21
-[Date: 08/11/2019, Time: 14:47:03]:  SUCCESS: Connected to ppp0 and ready for POST request
+        inet 100.77.42.154  netmask 255.255.255.255  destination 192.200.1.21
+        inet 100.77.42.154  netmask 255.255.255.255  destination 192.200.1.21
+[Date: 12/11/2019, Time: 15:17:13]:  SUCCESS: Connected to ppp0 and ready for POST request
 Test Reponse to Bjorn
-[Date: 08/11/2019, Time: 14:47:12]:  SUCCESS: pen_08_Nov_19_12.46.56.225.pgc Uploaded Successfully
+[Date: 12/11/2019, Time: 15:17:40]:  SUCCESS: pen_12_Nov_19_13.17.20.130.pgc Uploaded Successfully
 Done
-[Date: 08/11/2019, Time: 14:47:15]:  Turning rnet off
+Size of File Uploaded: 24K	
+[Date: 12/11/2019, Time: 15:17:43]:  Turning rnet off
 ---------------------------------------------
 
 watching /bluetooth directory for new files...

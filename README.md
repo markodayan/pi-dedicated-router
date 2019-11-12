@@ -19,13 +19,18 @@
 <p>6. Pair to pen using bluetoothctl and pin:12345 and Maybe Test Some Scripts</p>
 <br>
 <hr>
-<p>
+<br>
 
-Remember
+<h2>Remember</h2>
 
-LED(Green) - GPIO24
-LED(Yellow) - GPIO23
-Speaker - GPIO25
-THEN GSM Module ends on GPIO 15 and starts on 5V
+<p/>LED(Green) - GPIO24</p>
+<br>
+<p>LED(Yellow) - GPIO23</p>
+<br>
+<p>Speaker - GPIO25</p>
+<br>
+<p>THEN GSM Module ends on GPIO 15 and starts on 5V (Adding NPN Transistor soon for GPIO control)</p>
+<br>
+<p> 3V3 pin to LED(Red) - Just to show Power is on</p>
 
-</p>
+

@@ -10,7 +10,10 @@ post_file()
 	if [ $? -eq 0 ]
 	then
         	successful_upload $FILENAME
+		file_size=$(du -h /bluetooth/$FILENAME | cut -f1 -d"/")
+		echo "Size of File Uploaded: $file_size"
 		sudo mv /bluetooth/$FILENAME /home/pi/Desktop/scripts/pen_files/sent
+
 	else
        		failed_upload $FILENAME
 		sudo mv /bluetooth/$FILENAME /home/pi/Desktop/scripts/pen_files/outbox
@@ -81,24 +84,36 @@ sudo pon rnet
 sleep 15
 
 # Testing ppp0 Internet Capabilities
-ifconfig ppp0 | grep inet 
+ifconfig ppp0 | grep inet || ifconfig wlan0
 if  [ $? -eq 0 ]
 then
+
+	
 	python /home/pi/Desktop/scripts/python/green24/green_on.py
 	ifconfig > /home/pi/Desktop/scripts/logs/config.txt 
-	get_time
-	echo "$timestamp SUCCESS: Connected to ppp0 and ready for POST request"
-	post_file $pgc
+	#Distinguish whether it is ppp0 or wlan0 connection
+	ifconfig ppp0 | grep inet
+	if [ $? -eq 0 ]
+	then
+	        get_time
+        	echo "$timestamp SUCCESS: Connected to ppp0 and ready for POST request"
+        	post_file $pgc	
+	else
+		ifconfig wlan0
+		if [ $? -eq 0 ]
+		then
+                	get_time
+                	echo "$timestamp SUCCESS: Connected to wlan0 and ready for POST request"
+                	post_file $pgc 
+		fi
+	fi
 else
 	python /home/pi/Desktop/scripts/python/yellow23/yellow_on.py
 	ifconfig > /home/pi/Desktop/scripts/logs/config.txt
 	get_time
-	echo "$timestamp FAILURE: No PPP Internet Connection"
+	echo "$timestamp FAILURE: No Internet Connection (Check config.txt for ifconfig log)"
 	sudo mv /bluetooth/$pgc /home/pi/Desktop/scripts/pen_files/outbox
-	# Will Add Some Logic Here (Maybe moving the file to an Outbox and Then trying to send in next attempt)
-	#echo "$timestamp ACTION: Retry Connecting to GSM and Upload Attempt"
 	python /home/pi/Desktop/scripts/python/post_fail.py
-	#retry $pgc 
 fi
 
 sleep 1
