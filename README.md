@@ -21,16 +21,17 @@
 <hr>
 <br>
 
-<h2>Remember</h2>
+<h2>Raspberry Pi Pin Connections</h2>
 
-<p/>LED(Green) - GPIO24</p>
+<p>GPIO14 - Blue line of GSM (RX on module)</p>
+<p>GPIO15 - Green line of GSM (TX on module)</p>
+<p>GPIO23 - Yellow LED</p>
+<p>GPIO24 - Green LED</p>
+<p>GPIO25 - Speaker</p>
+<p>3V3 - Red LED (Powered by 3.3V pin to show when the device is powered on)</p>
+<p>5V - Connected to 5V of GSM Module (GND connection of GSM Module is connected to the transistor's collector)
+<p>GPIO16 - Transistor Base with 1K Resistor (Switches the GSM Module On & Off)</p>
 <br>
-<p>LED(Yellow) - GPIO23</p>
-<br>
-<p>Speaker - GPIO25</p>
-<br>
-<p>THEN GSM Module ends on GPIO 15 and starts on 5V (Adding NPN Transistor soon for GPIO control)</p>
-<br>
-<p> 3V3 pin to LED(Red) - Just to show Power is on</p>
+<hr>
 
 

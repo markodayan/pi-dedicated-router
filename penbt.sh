@@ -9,12 +9,14 @@ post_file()
 	curl -v -X POST -F 'file=@/bluetooth/'$FILENAME https://pls.xcallibre.com/dwpls2/indata2.aspx 
 	if [ $? -eq 0 ]
 	then
+		python /home/pi/Desktop/scripts/python/green24/green_on.py
         	successful_upload $FILENAME
 		file_size=$(du -h /bluetooth/$FILENAME | cut -f1 -d"/")
 		echo "Size of File Uploaded: $file_size"
 		sudo mv /bluetooth/$FILENAME /home/pi/Desktop/scripts/pen_files/sent
 
 	else
+		python /home/pi/Desktop/scripts/python/yellow23/yellow_on.py
        		failed_upload $FILENAME
 		sudo mv /bluetooth/$FILENAME /home/pi/Desktop/scripts/pen_files/outbox
 	fi
@@ -80,16 +82,16 @@ do
 echo "\nwatching /bluetooth directory for new files..."
 pgc=$(sudo inotifywait -r -q --format '%f' -e create /bluetooth)
 
+# rnet needs a minimum of 10 seconds after being called to start up
+python /home/pi/Desktop/scripts/python/received/file_received.py
 sudo pon rnet
-sleep 15
+sleep 12
 
 # Testing ppp0 Internet Capabilities
 ifconfig ppp0 | grep inet || ifconfig wlan0
 if  [ $? -eq 0 ]
 then
 
-	
-	python /home/pi/Desktop/scripts/python/green24/green_on.py
 	ifconfig > /home/pi/Desktop/scripts/logs/config.txt 
 	#Distinguish whether it is ppp0 or wlan0 connection
 	ifconfig ppp0 | grep inet

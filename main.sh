@@ -1,7 +1,7 @@
 # Executed when the LDXE loads up (Will have to change this at somepoint)
 echo "starting Obex Server to allow file transfer to /bluetooth directory..." 
-
-sleep 70
+python /home/pi/Desktop/scripts/python/gsm/gsm_on.py
+sleep 60
 sudo obexpushd -B23 -o /bluetooth
 
 python /home/pi/Desktop/scripts/python/bt_ready.py
