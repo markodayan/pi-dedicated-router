@@ -39,33 +39,8 @@ successful_upload()
 
 }
 
-retry()
-{
-	retry_file=$1
-	sudo poff rnet
-	sleep 2
-	get_time
-	echo "\n$timestamp Retrying Connection to GSM Module (Once)"
-	sudo pon rnet
-	sleep 10
-	ifconfig ppp0 | grep inet
-	if [ $? -eq 0 ]
-	then
-		ifconfig > /home/pi/Desktop/scripts/logs/config.txt
-		get_time
-		echo "$timestamp RETRY_SUCCESS: Connected to ppp0 and ready for POST request"
-		post_file $retry_file
-	else
-		ifconfig > /home/pi/Desktop/scripts/logs/config.txt
-		get_time
-		echo "$timestamp RETRY_FAILURE: No PPP"
-        	# Will Add Some Logic Here (Maybe moving the file to an Outbox and Then trying to send in next attempt)
-        	echo "$timestamp ACTION: Need to Move Pen File to Outbox"
-        	python /home/pi/Desktop/scripts/python/post_fail.py
-	fi
-}
-
 # ------------------ Set Up ----------------------------------------
+sudo ifconfig wlan0 down
 echo "---------------------------------------------"
 echo "Booted Up"  
 echo "---------------------------------------------"

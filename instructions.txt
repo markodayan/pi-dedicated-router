@@ -12,8 +12,22 @@ git clone https://github.com/markodayan/xcallibre-linux.git
 6. Pair to pen using bluetoothctl and pin:12345 and Maybe Test Some Scripts
 
 Remember
+GPIO14 - Blue line of GSM (RX on module)
+GPIO15 - Green line of GSM (TX on module)
+GPIO23 - Yellow LED (Failure)
+GPIO24 - Green LED (Received File / Successful Upload)
+GPIO25 - Speaker
+3V3 - Red KED (Powered by 3.3V pin to show when the device is powered on)
+5V - Connected to 5V of GSM Module (GND connection of GSM Module connected to the transistor's collector)
+GPIO16 - Transistor Base with 1K Resistor (Switches the GSM Module On & Off)
 
-LED(Green) - GPIO24
-LED(Yellow) - GPIO23
-Speaker - GPIO25
-THEN GSM Module ends on GPIO 15 and starts on 5V
+
+---------------------------------------------------------------------------------------------------------------------------
+Next Tasks:
+----------------------------------------------------------------------------------------------------------------------------
+
+- Create a Firebase Profile (Or MongoDB atlas) to store URL to do POST request to for file upload
+- When connected to Internet (preferably a WiFi network) read the database for a URL set on client-side
+- On the Pi, store this URL in a text document (lets call it post_credentials.json or .txt)
+- When a PGC file is received and ready to be uploaded, read the text in post_credentials.json and store that in a variable in penbt.sh
+- Use that variable in the curl POST request to do the file upload.
