@@ -1,0 +1,14 @@
+pi@raspberrypi:~/Desktop $ cat settings.txt
+Address: https://www.google.co.za
+Name: Mark Odayan
+Frequency: 60
+Option: Yes
+
+pi@raspberrypi:~/Desktop $ awk '/Address/ {print}' settings.txt
+Address: https://www.google.co.za
+
+pi@raspberrypi:~/Desktop $ awk '/Address/ {print $2}' settings.txt
+https://www.google.co.za
+
+
+awk '/URL/ {print $2}' /home/pi/Desktop/scripts/settings/settings.txt

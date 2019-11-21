@@ -31,3 +31,6 @@ Next Tasks:
 - On the Pi, store this URL in a text document (lets call it post_credentials.json or .txt)
 - When a PGC file is received and ready to be uploaded, read the text in post_credentials.json and store that in a variable in penbt.sh
 - Use that variable in the curl POST request to do the file upload.
+
+
+A Client-side Web Interface with Authentication. Once logged in, there will be a form which shows the currently set URL. There will be an option to update the URL and the previous URLs will remain as options (perhaps a submenu) 

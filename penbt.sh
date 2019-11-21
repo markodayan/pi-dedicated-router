@@ -6,7 +6,11 @@ get_time()
 post_file()
 {
 	FILENAME=$1
-	curl -v -X POST -F 'file=@/bluetooth/'$FILENAME https://pls.xcallibre.com/dwpls2/indata2.aspx 
+	address=$(awk '/URL/ {print $2}' /home/pi/Desktop/scripts/settings/settings.txt)
+	get_time
+	echo "\n$timestamp [Pre-POST Info] Filename: $FILENAME"
+	echo "\n$timestamp [Pre-POST Info] URL Setting: $address"
+	curl -v -X POST -F 'file=@/bluetooth/'$FILENAME $address 
 	if [ $? -eq 0 ]
 	then
 		python /home/pi/Desktop/scripts/python/green24/green_on.py

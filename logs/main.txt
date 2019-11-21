@@ -3,3 +3,18 @@ Booted Up
 ---------------------------------------------
 
 watching /bluetooth directory for new files...
+        inet 100.85.70.83  netmask 255.255.255.255  destination 192.200.1.21
+        inet 100.85.70.83  netmask 255.255.255.255  destination 192.200.1.21
+[Date: 21/11/2019, Time: 09:35:16]:  SUCCESS: Connected to ppp0 and ready for POST request
+
+[Date: 21/11/2019, Time: 09:35:16]:  [Pre-POST Info] Filename: pen_21_Nov_19_07.36.12.870.pgc
+
+[Date: 21/11/2019, Time: 09:35:16]:  [Pre-POST Info] URL Setting: https://pls.xcallibre.com/dwpls2/indata2.aspx
+Test Reponse to Bjorn
+[Date: 21/11/2019, Time: 09:35:34]:  SUCCESS: pen_21_Nov_19_07.36.12.870.pgc Uploaded Successfully
+Done
+Size of File Uploaded: 4.0K	
+[Date: 21/11/2019, Time: 09:35:49]:  Turning rnet off
+---------------------------------------------
+
+watching /bluetooth directory for new files...
