@@ -1,5 +1,5 @@
 Settings File
 --------------------------------------------------------------------
-URL: https://pls.xcallibre.com/dwpls2/indata2.aspx
+URL: <Insert Database POST Endpoint>
 Name: default
 --------------------------------------------------------------------
