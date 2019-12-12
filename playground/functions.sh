@@ -11,7 +11,7 @@ add_user()
 upload_test()
 {
 	FILENAME=$1
-	#curl -v -X POST -F 'file=@/bluetooth/'$FILENAME https://pls.xcallibre.com/dwpls2/indata2.aspx 
+	#curl -v -X POST -F 'file=@/bluetooth/'$FILENAME https://addy/ex.aspx 
 	echo "$FILENAME"
 	echo "$USER"
 }
@@ -21,7 +21,7 @@ upload_test()
 #INPUT=$PGC
 
 #upload_test $INPUT
-#add_user mark password123
+#add_user mark pblah
 
 get_time()
 {
