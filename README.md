@@ -8,29 +8,93 @@
 
 ---
 
-### 1. Disable serial port on console login and enable hardware serial
+### 1.
+
+Load SD Card with Raspbian Operating System (Follow guide on how to do this from the official Raspberry Pi Website as well as various web sources: https://www.raspberrypi.org/documentation/installation/installing-images/)
+
+### 2.
+
+Once the Raspberry Pi has been booted with Raspbian loaded SD Card, set up the WiFi connection for setup, this will be by clicking on the top right corner of the taskbar and clicking on the network listed.
+
+### 3.
+
+Enter the configuration menu by typing the following into the terminal:
 
 ```
 sudo raspi-config
 ```
 
-### 2. Clone the repository (run the following whilst in Desktop directory)
+then follow the menu to change interfacing options and select serial port on console login to be disabled and for hardware serial to be enabled. Thereafter reboot the device.
+
+### 4.
+
+Open the commandline and go the Desktop directory by typing the following in the command terminal:
+
+```
+cd ~/Desktop
+```
+
+then clone the repository holding all the files by writing the command:
 
 ```
 git clone https://github.com/markodayan/xcallibre-linux.git
 ```
 
-### 3. Rename the folder from xcallibre-linux to 'scripts'
+### 5.
 
-### 4. Run the script in the install directory
+Rename the folder from xcallibre-linux to 'scripts'
+
+### 6.
+
+go into the install directory in the directory of the cloned folder
+
+```
+cd ~/Desktop/scripts/install
+```
+
+Run the following command:
 
 ```
 ./install_dependencies.sh
 ```
 
-### 6. Pair to pen using bluetoothctl and pin:12345
+### 7.
 
-### 7. Set URL for HTTP Post Request in settings/settings.txt file
+Go to the terminal and write the command
+
+```
+sudo bluetoothctl
+```
+
+This will open up the bluetooth terminal. Type the following after
+
+```
+agent on
+```
+
+Set the mode
+
+```
+default-agent
+```
+
+Type the following command to begin scanning devices
+
+```
+scan on
+```
+
+A list of devices will be listed, once the name appears of the desired device to connect with, copy the MAC address (XX-XX-XX-XX-XX-XX) and write a command to pair with it as demonstrated below.
+
+```
+pair XX:XX:XX:XX:XX:XX
+```
+
+A default pin may be requested which would typically be 12345. Once you enter this the device will be paired successfully and ready for use.
+
+### 7.
+
+Set URL for HTTP Post Request in settings/settings.txt file
 
 ---
 
