@@ -1,4 +1,5 @@
 # Router Device Software Functionality
+> A repo that can configure a Raspberry Pi (any Linux distro computer) to be able to collect Anoto digital pen data and transfer digitally signed documents to any configured backend for processing. Basically the script installs dependencies, creates systemd services and logging structures as well as shows instructions of how to configure a Raspberry Pis GPIO to add external output to indicate at what step in the dedicated design case has been reached. Extra peripherals that the code prepares for use with a Raspberry Pi includes a GSM module which is a fallback in the case that internet connectivity is not available (This device is designed to work from anywhere provided it is supplied power)
 
 > This repo contains various scripts that were written to perform many tasks that the device is required to perform upon reboot. It makes use of the autostart LXDE desktop file to call the primary script that initiates all the actions (main.sh).
 
